@@ -28,7 +28,7 @@ const configFolderPath = path.resolve(__dirname, "config");
       type: "list",
       message: "Select your preferred extension:",
       name: "extension",
-      default: "yml",
+      default: "json",
       choices: ["json", "yml"],
     },
   ]);
@@ -49,4 +49,5 @@ const configFolderPath = path.resolve(__dirname, "config");
       process.exit();
     });
   }
+  console.log(`ormconfig.${extension} successfully created!`)
 })();

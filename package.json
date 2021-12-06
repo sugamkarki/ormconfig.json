@@ -1,0 +1,40 @@
+{
+  "name": "ormconfig.json",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Quickly create ormconfig.json for mysql, postgres, mongodb",
+  "keywords": [
+    "ormconfig",
+    "ormconfig.json",
+    "typescript",
+    "typeorm"
+  ],
+  "homepage": "https://github.com/sugamkarki/ormconfig.json/readme",
+  "bugs": {
+    "url": "https://github.com/sugamkarki/ormconfig.json/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sugamkarki/ormconfig.json"
+  },
+  "license": "MIT",
+  "author": "Sugam Karki",
+  "main": "src/index.js",
+  "bin": "src/index.js",
+  "scripts": {
+    "semantic-release": "semantic-release",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.0",
+    "json-to-pretty-yaml": "^1.2.2",
+    "json2yaml": "^1.1.0"
+  },
+  "devDependencies": {},
+  "publishConfig": {
+    "access": "public",
+    "branches": [
+      "master"
+    ]
+  }
+}

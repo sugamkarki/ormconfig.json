@@ -1,19 +1,15 @@
-name: "default"
-type: "postgres"
-host: "localhost"
-port: 5432
-username: "test"
-password: "test"
-database: "test"
+type: mongodb
+host: localhost
+database: test
 synchronize: true
 logging: false
 entities:
-  - "src/entity/*.js"
+  - src/entity/*.js
 subscribers:
-  - "src/subscriber/*.js"
+  - src/subscriber/*.js
 migrations:
-  - "src/migration/*.js"
+  - src/migration/*.js
 cli:
-  entitiesDir: "src/entity"
-  migrationsDir: "src/migration"
-  subscribersDir: "src/subscriber"
+  entitiesDir: src/entity
+  migrationsDir: src/migration
+  subscribersDir: src/subscriber

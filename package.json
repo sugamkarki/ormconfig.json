@@ -29,7 +29,9 @@
     "inquirer": "^8.2.0",
     "js-yaml": "^4.1.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "semantic-release": "^18.0.1"
+  },
   "publishConfig": {
     "access": "public",
     "branches": [

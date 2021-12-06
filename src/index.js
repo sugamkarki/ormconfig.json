@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-
 const exec = require("child_process").exec;
 const { writeFile, readdir, readFile } = require("fs").promises;
 const inquirer = require("inquirer");

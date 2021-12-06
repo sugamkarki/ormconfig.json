@@ -1,6 +1,6 @@
 {
   "name": "ormconfig.json",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "description": "Quickly create ormconfig.json for mysql, postgres, mongodb in JSON or YAML format.!",
   "keywords": [
